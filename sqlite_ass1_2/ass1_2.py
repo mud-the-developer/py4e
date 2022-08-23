@@ -9,7 +9,7 @@ cur.execute('''
 CREATE TABLE Counts (org TEXT, count INTEGER)''')
 
 fname = input('Enter file name: ')
-if (len(fname) < 1): fname = 'mbox.txt'
+if (len(fname) < 1): fname = 'Library.xml'
 fh = open(fname)
 temp_list=[]
 for line in fh:
